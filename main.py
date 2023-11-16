@@ -27,13 +27,13 @@ def guess_the_number():
 
 
 def multiplication_table():
-  number = int(input("Enter an integer: "))
+ number = int(input("Enter a number: "))
 
-  print(f"Multiplication Table for {number}:")
+print(f"Multiplication Table for {number}:")
   # Fix code
   # implement a for loop
-  i = 1 # fix code
-  result = number * i # fix code
+for i in range(1, 11): # fix code
+  result = number * i
   print(f"{number} x {i} = {result}")
 
 
